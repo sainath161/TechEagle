@@ -1,0 +1,261 @@
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    /* color: #000; */
+    text-align: center;
+}
+
+span{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 2%;
+    transition: all 0.2s ease-in-out;
+}
+
+.add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.add:hover {
+    background-color: #45a049;
+}
+
+.logout{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.logout:hover {
+    background-color: #ff2714;
+}
+
+.login{
+    background-color: #36aef4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.login:hover {
+    background-color: #14a0ff;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content input {
+    margin-bottom: 10px;
+}
+
+.popup-content>div {
+    margin-top: 10px;
+}
+
+.start{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.start:hover {
+    background-color: #45a049;
+}
+
+.pause{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.pause:hover {
+    background-color: #ff2714;
+}
+
+.resume{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    float: left;
+}
+
+.resume:hover {
+    background-color: #45a049;
+}
+
+.end {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    float: right;
+}
+
+.end:hover {
+    background-color: #ff2714;
+}
+
+.show-details{
+    background-color: #36aef4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.show-details:hover {
+    background-color: #14a0ff;
+}
+
+table {
+    width: 98%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 3px solid #ccc;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.serial{
+    width: 5%;
+    text-align: center;
+    border: 3px solid #ccc;
+}
+
+.name{
+    text-align: center;
+    border: 3px solid #ccc;
+}
+
+.duration{
+    text-align: center;
+    border: 3px solid #ccc;
+}
+
+.actions{
+    text-align: center;
+    border: 3px solid #ccc;
+}
+
+.status{
+    text-align: center;
+    border: 3px solid #ccc;
+}
